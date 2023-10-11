@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "react-the-complete-guide",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +10,19 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-scripts": "^5.0.1"
+=======
+  "name": "react-complete-guide",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.5.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^0.2.4"
+>>>>>>> bb8ca84c402f259886170f5bcc71f043f7c6ff2a
   },
   "scripts": {
     "start": "react-scripts start",
@@ -17,7 +31,14 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
+<<<<<<< HEAD
     "extends": "react-app"
+=======
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+>>>>>>> bb8ca84c402f259886170f5bcc71f043f7c6ff2a
   },
   "browserslist": {
     "production": [
